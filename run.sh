@@ -1,0 +1,1 @@
+gunicorn app:app -b :5001 --workers 2 --reload
